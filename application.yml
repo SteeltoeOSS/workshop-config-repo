@@ -4,3 +4,7 @@ Logging:
     Default: Debug
     System: Information
     Microsoft: Information
+eureka:
+  client: 
+    serviceUrl: http://localhost:8761/eureka/
+    validate_certificates: false
