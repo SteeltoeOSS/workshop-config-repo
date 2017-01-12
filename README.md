@@ -1,2 +1,2 @@
 # workshop-config-repo
-Workshop Config Server Repo 
+Workshop Config Server Repo - Config Server repo used for the Steeltoe Workshop Labs
