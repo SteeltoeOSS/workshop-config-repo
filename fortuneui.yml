@@ -3,5 +3,7 @@ eureka:
     shouldRegisterWithEureka: false
 
 fortuneService:
-  randomFortuneUrl: http://fortuneService/api/fortunes/random
-  allFortunesUrl: http://fortuneService/api/fortunes/all
+  scheme: http
+  address: fortuneService
+  randomFortunePath: api/fortunes/random
+  allFortunesPath: api/fortunes/all
