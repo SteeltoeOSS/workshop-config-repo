@@ -1,7 +1,12 @@
 eureka:
   client:
     shouldRegisterWithEureka: false
-
+hystrix:
+  command:
+    FortuneService:
+      threadPoolKeyOverride: FortuneServiceTPool
+  stream:
+    validate_certificates: false
 fortuneService:
   scheme: http
   address: fortuneService
