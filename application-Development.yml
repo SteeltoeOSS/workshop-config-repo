@@ -1,8 +1,8 @@
 Logging: 
   IncludeScopes: false
   LogLevel: 
-    Default: Debug
-    System: Debug
-    Microsoft: Debug
+    Default: Information
+    System: Information
+    Microsoft: Information
     Fortune_Teller_Service: Debug
     Fortune_Teller_UI: Debug
