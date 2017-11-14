@@ -9,6 +9,6 @@ hystrix:
     validate_certificates: false
 fortuneService:
   scheme: http
-  address: fortuneservice-undefaming-anticathexis.apps.testcloud.com
+  address: fortuneservice
   randomFortunePath: api/fortunes/random
   allFortunesPath: api/fortunes/all
