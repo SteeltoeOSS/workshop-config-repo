@@ -4,6 +4,7 @@ Logging:
     LogLevel: 
       Default: Information
   Console:
+    DisableColors: true
     LogLevel: 
       Default: Information
 eureka:
