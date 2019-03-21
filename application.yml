@@ -30,6 +30,6 @@ management:
     useShortTraceIds: true
     exporter:
       zipkin:
-        endpoint: http://localhost:9411/api/v2/spans
+        endpoint: http://zipkin-server.apps.testcloud.com/api/v2/spans
         validateCertificates: false
         useShortTraceIds: true
