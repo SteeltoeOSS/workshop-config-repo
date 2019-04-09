@@ -10,11 +10,11 @@ Logging:
 eureka:
   client: 
     serviceUrl: http://localhost:8761/eureka/
-    validate_certificates: false
+    validateCertificates: false
 security:
   oauth2:
     client:
-      validate_certificates: false    
+      validateCertificates: false    
 management: 
   endpoints: 
     path: /cloudfoundryapplication
@@ -30,6 +30,6 @@ management:
     useShortTraceIds: true
     exporter:
       zipkin:
-        endpoint: http://zipkin-server.apps.testcloud.com/api/v2/spans
+        endpoint: https://zipkin-server.apps.beet.springapps.io/api/v2/spans
         validateCertificates: false
         useShortTraceIds: true
